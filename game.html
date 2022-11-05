@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Mania</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div id="score-level">  <div class="score" id="name-div"> </div>
+        <h2 class="score"> Score:<span id="score">0</span></h2>
+        <h2 class="score"> Level:<span id="level">1</span></h2>
+         <img id="setting-logo" src="./settings-glyph-black-icon-png_292947-removebg-preview.png" alt=""></div>
+        <div class="game-board"></div>
+        
+    </div>
+    <div class="keypad hide" id="keypad">
+        <div class="keyrow top">
+            <div class="key-box" id="Up">⬆️</div>
+        </div>
+        <div class="keyrow bottom">
+            <div class="key-box" id="Left">⬅️</div>
+            <div class="key-box" id="Down">⬇️</div>
+            <div class="key-box" id="Right">➡️</div>
+        </div>
+    </div>
+</div>
+
+<div id="overlay" class="overlay">
+        <div id="overlay-inside">
+            <h1 id="setting-heading">🐍Instructions🐍</h1>
+            <div id="select-mode">
+            <ul>
+                <li>Arrow Up to move up.</li>
+                <li>Arrow down to move down.</li>
+                <li> Arrow left to move left.</li>
+                <li> Arrow right to move right.</li>
+                <li>There are 5 levels.</li>
+                <li>Spedd will increase with levels.</li>
+                <li>Try not to collide.</li>
+                <br>
+                <li>Enjot the game!</li>
+                </ul></div>
+                
+                <div id="button"><button id="instructions-play">Play</button></div>
+            </div></div>
+    </div>
+    <script src="gameScript.js"></script>
+</body>
+</html>
